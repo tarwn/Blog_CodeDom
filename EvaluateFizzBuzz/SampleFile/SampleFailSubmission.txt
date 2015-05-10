@@ -1,0 +1,18 @@
+﻿
+
+public static string FizzBuzz(int number){
+	// fake exception
+	if(number % 2 == 0){
+		throw new Exception("Just an exception as an example");
+	}
+
+	if (number % 3 == 0){
+		return "Fizz";
+	}
+	if(number % 5 == 0){
+		return "Buzz";
+	}
+	else{
+		return number.ToString();
+	}
+}
